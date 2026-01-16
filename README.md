@@ -1,35 +1,69 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/SubhrajitSain/Lunite/refs/heads/main/icon.png" alt="Lunite logo" width="120" />
 
-# The Lunite Programming Language
+# Lunite Stable Branch
 
 **© Lunite by ANW (Subhrajit Sain), 2025–2026**
-
-**Version:** v1.9.1  
-**Language update date:** 15th January, 2026  
-**Documentation update date:** 15th January, 2026
 
 </div>
 
 ---
 
-Lunite is a modern **hybrid programming language** that blends **Object-Oriented Programming (OOP)** and **Procedural-Oriented Programming (POP)** paradigms.
-It supports both **interpreted execution** and **compiled ("binded") workflows**, and is built **on top of Python** for flexibility, power, and rapid development.
+## ⚠ WARNING: This branch is not ready yet.  
+Please refrain from using this branch for the time being, and switch to the `main` branch. This branch will only serve from Lunite v2.0.0.  
 
-📘 **Documentation**  
+---
+
+## 🛡️ About This Branch
+
+You have visited the `stable` branch.
+
+Only tested, verified, and production-ready commits are merged here. If you are a developer who wants reliability, predictability, and documented behavior, this is the branch you should use.
+
+No experimental features, breaking changes, or in-progress work are pushed directly to this branch, only stable major versions.
+
+---
+
+## 🌱 Development Model
+
+Lunite follows a two-branch development model:
+
+*   **`main`** → Active development (everything)
+*   **`stable`** → Proven snapshots and stable versions only
+
+All development happens on `main`. When a set of changes is considered stable and well-tested, it is merged into `stable` by me.
+
+Stable releases are made in this branch only.
+
+---
+
+## 📦 Releases
+
+* GitHub Releases are only done in `stable`.
+* You can rest assured that the Lunite version you download and use is not going to break down.
+
+If you are packaging Lunite, embedding it, or using it for serious projects, target `stable` branch releases only.
+
+---
+
+## 📘 Documentation
+
+📄 Official documentation (not only stable releases, all versions of Lunite):  
 👉 [Click here to read the official Lunite documentation](https://verbena-dream-15b.notion.site/Lunite-Docs-2e947befe6ac80b8bba0c5cca9c6aeb1)
 
-🌐 **Author & Contact**  
-Visit **[https://anw.is-a.dev](https://anw.is-a.dev)** for more information about the author.
-If you’d like to get in touch, please find contact details directly on that page.
+Documentation is updated alongside each Lunite version, not only stable.
+
+---
+
+## 🌐 Author & Contact
+
+Author website: [https://anw.is-a.dev](https://anw.is-a.dev)
+For contact information, support, or other projects, please refer to the website above.
 
 ---
 
 <div align="center">
   <img src="notbyai.svg" alt="Not By AI badge" />
-
   <br />
-
-<em>Made with 💜 by ANW (Subhrajit Sain)</em>
-
+  <em>Lunite stable branch. Made with 💜 by ANW (Subhrajit Sain).</em>
 </div>
