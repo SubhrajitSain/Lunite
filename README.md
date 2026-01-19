@@ -7,12 +7,8 @@
 
 </div>
 
----
-
-## ⚠ WARNING: This branch is not ready yet.  
-Please refrain from using this branch for the time being, and switch to the `main` branch. This branch will only serve from Lunite v2.0.0.  
-
----
+> [!WARNING]
+> This branch is not ready yet. Please refrain from using this branch for the time being, and switch to the `main` branch. This branch will only serve from Lunite v2.0.0.  
 
 ## 🛡️ About This Branch
 
