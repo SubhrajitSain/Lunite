@@ -8,7 +8,7 @@
 </div>
 
 > [!WARNING]
-> This branch is not ready yet. Please refrain from using this branch for the time being, and switch to the `main` branch. This branch will only serve from Lunite v2.0.0.  
+> This branch is not ready yet. Please refrain from using this branch for the time being, and switch to the `main` branch. This branch will only serve from Lunite v2.0.0. A cleanup will be done for this branch after Lunite reaches v2.0.0.  
 
 ## 🛡️ About This Branch
 
@@ -27,7 +27,9 @@ Lunite follows a two-branch development model:
 *   **`main`** → Active development (everything)
 *   **`stable`** → Proven snapshots and stable versions only
 
-All development happens on `main`. When a set of changes is considered stable and well-tested, it is merged into `stable` by me.
+All development happens on `main`. When a set of changes is considered stable and well-tested, it is merged into the `stable` branch.  
+
+When stable versions are released, this branch gets remade completely with only the source code, examples, and files which are of the most importance only.  
 
 Stable releases are made in this branch only.
 
@@ -44,7 +46,7 @@ If you are packaging Lunite, embedding it, or using it for serious projects, tar
 
 ## 📘 Documentation
 
-📄 Official documentation (not only stable releases, all versions of Lunite):  
+📄 Official documentation:  
 👉 [Click here to read the official Lunite documentation](https://verbena-dream-15b.notion.site/Lunite-Docs-2e947befe6ac80b8bba0c5cca9c6aeb1)
 
 Documentation is updated alongside each Lunite version, not only stable.
