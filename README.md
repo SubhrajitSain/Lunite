@@ -10,7 +10,7 @@
 > [!WARNING]
 > This branch is not ready yet. Please refrain from using this branch for the time being, and switch to the `main` branch. This branch will only serve from Lunite v2.0.0. A cleanup will be done for this branch after Lunite reaches v2.0.0.  
 
-## 🛡️ About This Branch
+## ❔ About This Branch
 
 You have visited the `stable` branch.
 
