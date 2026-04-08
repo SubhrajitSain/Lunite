@@ -47,7 +47,7 @@ If you are packaging Lunite, embedding it, or using it for serious projects, tar
 ## 📘 Documentation
 
 📄 Official documentation:  
-👉 [Click here to read the official Lunite documentation](https://verbena-dream-15b.notion.site/Lunite-Docs-2e947befe6ac80b8bba0c5cca9c6aeb1)
+👉 [Click here to read the official Lunite documentation](https://subhrajitsain.github.io/Lunite-website/#docs/01-index.md)
 
 Documentation is updated alongside each Lunite version, not only stable.
 
