@@ -14,14 +14,17 @@ from runtime.interpreter import Interpreter, SafeModeResourceMonitor
 import core.constants as constants
 
 USE_MSGPACK = False
-try:
-    import msgpack
-    USE_MSGPACK = True
-except ImportError:
-    print("[LBVM] [WARN] msgpack is not installed in the current python environment.")
-    print("[LBVM] You can install msgpack with 'pip install msgpack'.")
-    print("[LBVM] [WARN] Using pickle as fallback. This may be less safe.")
-    import pickle
+#try:
+#    import msgpack
+#    USE_MSGPACK = True
+#except ImportError:
+#    print("[LBVM] [WARN] msgpack is not installed in the current python environment.")
+#    print("[LBVM] You can install msgpack with 'pip install msgpack'.")
+#    print("[LBVM] [WARN] Using pickle as fallback. This may be less safe.")
+#    import pickle
+import pickle
+
+# msgpack cannot serialize complex data structs >:(
 
 BYTECODE_MAGIC = b"LUNITE-LBVM\x00"
 BYTECODE_VERSION = 1
