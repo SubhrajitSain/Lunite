@@ -20,9 +20,7 @@ try:
 except ImportError:
     print("[LBVM] [WARN] msgpack is not installed in the current python environment.")
     print("[LBVM] You can install msgpack with 'pip install msgpack'.")
-    cont = input("[LBVM] Continue with pickle instead (maybe unsafe)? [Y/N]: ").lower().startswith("y")
-    if not cont:
-        raise ImportError("[LBVM] msgpack is recommended for working with Lunite bytecode. Install it with: pip install msgpack")
+    print("[LBVM] [WARN] Using pickle as fallback. This may be less safe.")
     import pickle
 
 BYTECODE_MAGIC = b"LUNITE-LBVM\x00"
