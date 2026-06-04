@@ -895,11 +895,12 @@ def compile_ast_to_bytecode(source, source_file=None):
 
 def save_bytecode(path, source, source_file=None):
     program = compile_ast_to_bytecode(source, source_file)
-    data = program_to_dict(program)
-    if USE_MSGPACK:
-        payload = msgpack.packb(data, use_bin_type=True)
-    else:
-        payload = pickle.dumps(data)
+    #data = program_to_dict(program)
+    #if USE_MSGPACK:
+    #    payload = msgpack.packb(data, use_bin_type=True)
+    #else:
+    #    payload = pickle.dumps(data)
+    payload = pickle.dumps(program)
     with open(path, "wb") as f:
         f.write(struct.pack(HEADER_FORMAT, BYTECODE_MAGIC, BYTECODE_VERSION))
         f.write(payload)
@@ -917,14 +918,15 @@ def load_bytecode(path):
         if version != BYTECODE_VERSION:
             raise ValueError(f"[LBVM] Unsupported Lunite bytecode version, expected '{BYTECODE_VERSION}', got '{version}'")
         payload = f.read()
-        if USE_MSGPACK:
-            data = msgpack.unpackb(payload, raw=False)
-        else:
-            data = pickle.loads(payload)
+        #if USE_MSGPACK:
+        #    data = msgpack.unpackb(payload, raw=False)
+        #else:
+        #    data = pickle.loads(payload)
+        program = pickle.loads(payload)
 
-    if not isinstance(data, dict) or "instructions" not in data:
-        raise ValueError("[LBVM] Invalid bytecode payload")
-    program = dict_to_program(data)
+    #if not isinstance(data, dict) or "instructions" not in data:
+    #    raise ValueError("[LBVM] Invalid bytecode payload")
+    #program = dict_to_program(data)
     return program, program.source_file
 
 
