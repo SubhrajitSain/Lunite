@@ -24,14 +24,16 @@
 
 ---
 
-Lunite is a modern **hybrid programming language** that blends **Object-Oriented Programming (OOP)** and **Procedural-Oriented Programming (POP)** paradigms.  
-It supports both **interpreted execution** and **compiled ("binded") workflows**, and is built **on top of Python** for flexibility, power, and rapid development.  
+Lunite is a programming language that I started to make since I was 15 years old. You can use it to do normal scripting, OOP, make websites, apps and games and **MUCH** more.  
+For now, it is still unstable, and 100% stability is never guaranteed. Although the stable branch is named so, it might still have bugs.
+It is made in Python and has a fully fledged interpreter *plus* a WIP bytecode compiler at `core/lbvm.py`. The language has become something more than a hobby project, if you would ask me.
 
 > [!IMPORTANT]
 > **Do you need more speed?** Lunite now has a guide on how to transpile its interpreter into C++ for even better (2 to 3 times faster) performance! It is recommended for you to transpile the interpreter if you are seeking for good performance. Check it out in the documentation (link provided below).
 
 ✅ **Stable Branch**  
 The `stable` branch has been created. It will begin getting commits after Lunite v2.0.0. We are just 1 update away!  
+Also please note that stable releases might still have issues that have gone over our heads. Please report any issues that you may find, thank you!  
 👉 [Click here to visit the stable branch](https://github.com/SubhrajitSain/Lunite/tree/stable)
 
 > [!WARNING]
@@ -42,6 +44,11 @@ We suggest that you check the docs out and even try making your own programs in 
 
 👉 [Click here to read the official Lunite documentation](https://subhrajitsain.github.io/Lunite-website#docs/01-index.html)
 
+➕ **How to Contribute**  
+Lunite needs contributors, and you are here! You can contribute to the langauge by:
+- reporting issues or suggestions in the Issues page of this repository, or...
+- make changes to the code and request addition to the language via Pull Requests.
+
 📢 **Shout Out**  
 Shout out to **Crabby**, a modern programming language made in Rust by my friend Kazooki123 (Starlo)! 💜  
 Also, checkout **YuriLang**, an esolang made by her.  
@@ -50,6 +57,7 @@ Also, checkout **YuriLang**, an esolang made by her.
 
 📦 **Pre-made Demos**  
 You can find pre-made Lunite demos in the `demos` folder and in `libs` (these are mostly some wrappers).  
+Try making something in Lunite and sharing them or request addition to the demos via PRs!  
 
 🌐 **Author & Contact**  
 Visit **[https://anw.is-a.dev](https://anw.is-a.dev)** for more information about the author.
